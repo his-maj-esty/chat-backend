@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_users",
+  "info": {
+    "singularName": "chat-user",
+    "pluralName": "chat-users",
+    "displayName": "ChatUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}

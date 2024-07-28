@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_messages",
+  "info": {
+    "singularName": "chat-message",
+    "pluralName": "chat-messages",
+    "displayName": "ChatMessage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    },
+    "username": {
+      "type": "string"
+    },
+    "room": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "datetime"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}
