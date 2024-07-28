@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
       contentTypes: ["api::chat-user.chat-user"],
       socket: {
         serverOptions: {
-          cors: { origin: process.env.FRONTEND_URL },
+          cors: { origin: process.env.FRONTEND_URL, credentials: true },
         },
       },
     },
